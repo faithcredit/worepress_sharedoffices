@@ -1,0 +1,314 @@
+
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .pull-left{
+  float: right !important;
+}
+
+.rtl .pull-right{
+  float: left !important;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu{
+  float: right;
+}
+
+.rtl .cta-section{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .header-top .right-column .social-links li{
+  margin-right: 0px;
+  margin-left: 20px;
+  float: right;
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .banner-carousel{
+  direction: ltr;
+}
+
+.rtl .main-header .search-box-outer .dropdown-menu{
+  right: inherit !important;
+  left: 0px !important;
+}
+
+.rtl .main-header .menu-area .logo-box{
+  margin-right: 0px;
+  margin-left: 60px;
+}
+
+.rtl .main-header .menu-area .logo-box:before{
+  right: inherit;
+  left: -30px;
+}
+
+.rtl .main-header .nav-right .support-box .info-box li{
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 70px;
+}
+
+.rtl .main-header .nav-right .support-box .info-box li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-header .nav-right .language .language-dropdown li{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a:hover{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li a:hover{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .about-section .content_block_1 .content-box{
+  text-align: right;
+}
+
+.rtl .content_block_1 .content-box .inner-box .single-item .inner h6{
+  display: inline-block;
+}
+
+.rtl .content_block_1 .content-box .inner-box .single-item .inner{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .content_block_1 .content-box .inner-box .single-item .inner .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .service-block-one .inner-box .inner{
+  text-align: right;
+}
+
+.rtl .service-style-two{
+  text-align: right;
+}
+
+.rtl .service-block-two .inner-box .content-box .inner .text{
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .service-block-two .inner-box .content-box .inner .text:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .service-block-two .inner-box .content-box .inner .text:after{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .working-section{
+  text-align: right;
+}
+
+.rtl .working-block-one .inner-box .shape{
+  right: inherit;
+  left: 15px;
+}
+
+.rtl .project-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .content_block_2 .content-box{
+  text-align: right;
+}
+
+.rtl .content_block_2 .content-box .author-box{
+  padding-left: 0px;
+  padding-right: 160px;
+}
+
+.rtl .content_block_2 .content-box .author-box .signature{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .content_block_2 .content-box .author-box .signature:before{
+  right: 140px;
+}
+
+.rtl .team-section .upper-box{
+  text-align: right;
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+.rtl .testimonial-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box{
+  padding-left: 0px;
+  padding-right: 65px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box .quote{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .testimonial-block-one .inner-box .rating li{
+  float: right;
+}
+
+.rtl .testimonial-block-one .inner-box .author-thumb{
+  right: inherit;
+  left: 40px;
+}
+
+.rtl .news-section{
+  text-align: right;
+}
+
+.rtl .news-block-one .inner-box .post-date{
+  left: inherit;
+  right: 30px;
+}
+
+.rtl .news-block-one .inner-box .post-info li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 26px;
+  padding-left: 0px;
+  padding-right: 22px;
+}
+
+.rtl .news-block-one .inner-box .post-info li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .news-block-one .inner-box .post-info li:before{
+  right: inherit;
+  left: -15px;
+}
+
+.rtl .footer-top{
+  text-align: right;
+}
+
+.rtl .footer-top .widget-title:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .footer-top .widget-title:after{
+  left: inherit;
+  right: 19px;
+}
+
+.rtl .footer-top .links-widget .links-list li a{
+  padding-left: 0px;
+  padding-right: 32px;
+}
+
+.rtl .footer-top .links-widget .links-list li a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .footer-top .links-widget .links-list li a:after{
+  left: inherit;
+  right: 6px;
+}
+
+.rtl .footer-top .logo-widget .support-box{
+  padding-left: 0px;
+  padding-right: 45px;
+}
+
+.rtl .footer-top .logo-widget .support-box i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .scroll-top{
+  right: inherit;
+  left: 30px;
+}

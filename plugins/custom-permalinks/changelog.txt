@@ -1,0 +1,488 @@
+== Changelog ==
+
+This file contains only old changelog. See readme.txt for newer versions.
+
+= 2.3.0 - Sep 21, 2021 =
+
+* Bugs
+  * [is_numeric warning in plugin API](https://wordpress.org/support/topic/is_numeric-error-for-plugin-api/)
+  * [Missing default WP redirect from URLs with no ending trailing slash](https://wordpress.org/support/topic/missing-default-wp-redirect-from-urls-with-no-ending-trailing-slash/)
+  * [trailing slash](https://wordpress.org/support/topic/trailing-slash-9/)
+  * Fixed JS Error on updating Static page
+* Enhancements
+  * Allow period in the permalink
+
+= 2.2.0 - Aug 13, 2021 =
+
+* Bugs
+  * Show decoded permalink in meta box
+* Enhancements
+  * Update script to fix linting issues and use updated permalink to view the post/page
+
+= 2.1.0 - Aug 09, 2021 =
+
+* Bugs
+  * [Plugin not save persian alphabet](https://wordpress.org/support/topic/plugin-not-save-persian-alphabet/)
+  * Fix PHP Error on Deactivating the plugin
+* Enhancements
+  * Exclude processing for sitemap URLs
+
+= 2.0.1 - Aug 02, 2021 =
+
+* Bugs
+  * [404 error when post/page custom permalink is part of category custom permalink](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/49)
+
+= 2.0.0 - Jul 30, 2021 =
+
+* Bugs
+  * [Bug with AMP plugin](https://wordpress.org/support/topic/bug-with-amp-plugin/)
+  * [Oembed links not working](https://wordpress.org/support/topic/oembed-links-not-working/)
+  * [Uncaught (in promise) TypeError: getHomeURL is null](https://wordpress.org/support/topic/uncaught-in-promise-typeerror-gethomeurl-is-null/)
+  * [Plugin stop saving uppercase slugs](https://wordpress.org/support/topic/plugin-stop-saving-upppercase-slugs/)
+  * [template_redirect](https://wordpress.org/support/topic/make-redirect/)
+  * conflict with WooCommerce Paid courses
+  * Fix creating duplicated permalink while creating multiple `Categories` and/or `Tags`
+* Enhancements
+  * Added Query caching to improve performance
+  * Changed Permalink sanitization method (Similar way as WP does)
+  * Added Nonce verification to make forms secure
+  * [Permalink Filter before saving](https://wordpress.org/support/topic/permalink-filter/)
+  * Show/Hide column and Pagination features added on Post Type Permalinks and Taxonomies Permalinks page
+  * Removed deprecated functions
+  * Applied WPCS Standards
+
+= 1.7.1 - Aug 30, 2020 =
+
+  * Bugs
+    * Fix PHP notice (start reporting with WordPress 5.5)
+
+= 1.7.0 - Aug 20, 2020 =
+
+  * Bugs
+    * [Paged NextGen Galleries Broken with Custom Permalinks 1.62](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/38)
+    * [custom permalink issue with weglot](https://wordpress.org/support/topic/custom-permalink-issue-with-weglot/)
+    * [Permalinks reverting back to old ones](https://wordpress.org/support/topic/permalinks-reverting-back-to-old-ones/)
+    * [A problem with wrongly deleted permalinks](https://wordpress.org/support/topic/a-problem-with-wrongly-deleted-permalinks/)
+  * Enhancements
+    * [Enhanced security through characters restriction](https://github.com/samiahmedsiddiqui/custom-permalinks#unsupported-characters)
+    * Introduce filter to disable specific redirect(s) or complete functionality
+    * Automatic replacement of upper case letters to lower case
+
+= 1.6.2 - Aug 10, 2020 =
+
+  * Bugs
+    * Forgot to update the version in CSS and JS files in `v1.6.1`
+
+= 1.6.1 - Aug 10, 2020 =
+
+  * Bugs
+    * Avoid caching issue by adding version as suffix in CSS and JS files
+
+= 1.6.0 - Aug 08, 2020 =
+
+  * Bugs
+    * [Undefined index and undefined variable error](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/28)
+    * [count(): Parameter must be an array or an object](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/27)
+    * Fix double slash from the permalink form
+    * [use 'view_item' label for previewing custom post types](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/31)
+    * [Fix PHP 7.4 issues](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/32)
+    * Fix Yoast Canonical double slash issue
+    * [Replacing category_link with term_link](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/34)
+    * [Bug with WPML and Use directory for default language](https://github.com/samiahmedsiddiqui/custom-permalinks/issues/36)
+    * Fix Static Homepage redirect issue
+  * Enhancements
+    * Improved Gutenberg Support
+    * Added compatibility for WPML language switcher
+    * Add filter to exclude Custom Permalinks for certain posts (based on Post IDs, template, etc)
+    * Optimized Code
+
+= 1.5.1 - Jun 11, 2019 =
+
+  * Bug
+    * Added additional check for [Call to undefined function pll_current_language](https://wordpress.org/support/topic/call-to-undefined-function-pll_current_language/)
+
+= 1.5.0 - Jun 04, 2019 =
+
+  * Bugs
+    * [Issue with Polylang Setting Hide Default Language](https://wordpress.org/support/topic/issue-with-polylang-setting-hide-default-language/)
+    * Change deprecated actions with appropriate actions
+
+= 1.4.0 - Nov 08, 2018 =
+
+  * Enhancements
+    * Added Support for Gutenberg
+    * Set meta_keys to be protected to stop duplication in Custom Fields
+
+= 1.3.0 - June 07, 2018 =
+
+  * Enhancements
+    * [Conflict with WPML](https://wordpress.org/support/topic/conflict-with-wpml-17/)
+    * Avoid appending slashes and use trailingslashit instead
+
+= 1.2.24 - May 31, 2018 =
+
+  * Bug
+    * [FATAL ERROR when the administrator role not found](https://wordpress.org/support/topic/fatal-error-on-update-15/)
+
+= 1.2.23 - May 22, 2018 =
+
+  * Enhancement
+    * Added Privacy Policy Content for WordPress 4.9.6 and higher.
+
+= 1.2.22 - May 16, 2018 =
+
+  * Enhancement
+    * Added Capabilities to view the Permalinks Page
+
+  * Bug
+    * Fixed cp_remove_like_query Filter issue
+
+= 1.2.21 - April 17, 2018 =
+
+  * Bug
+    * Removed final keyword with the classes.
+      For further details:
+      https://wordpress.org/support/topic/page-not-found-404-errors-after-latest-update/
+      https://wordpress.org/support/topic/throws-404-here-and-there/
+
+= 1.2.20 - April 11, 2018 =
+
+  * Bug
+    * Removed extra code which was written for the equal query.
+      For further details:
+      https://wordpress.org/support/topic/page-not-found-404-errors-after-latest-update/
+
+= 1.2.19 - April 10, 2018 =
+
+  * Bugs
+    * Fixed undefined variable issue on PostTypes Permalinks page
+    * Fixed LIKE Query Issue
+
+= 1.2.18 - April 05, 2018 =
+
+  * Enhancement
+    * Merged custom-permalinks-main.php with custom-permalinks.php
+    * Added uninstall.php
+
+  * Bugs
+    * Added feed redirect of default permalink
+    * Provide proper feed of custom permalink
+
+= 1.2.17 - Feb 13, 2018 =
+
+  * Fixed Pagination Issue on Comments
+  * Optimize Post Pager Query
+
+= 1.2.16 - Feb 09, 2018 =
+
+  * Added compatibility with Tasty Recipes Plugin
+
+= 1.2.15 - Feb 08, 2018 =
+
+  * Added filter which can be used to add PATH_INFO in $_SERVER Variable
+
+= 1.2.14 - Feb 07, 2018 =
+
+  * Enhancement
+    * Added PATH_INFO in $_SERVER Variable
+
+  * Bugs
+    * `$this` variable issue on a static method
+
+= 1.2.12 - Jan 25, 2018 =
+
+  * Fixed translation path and pager content issue
+
+= 1.2.11 - Jan 24, 2018 =
+
+  * Fixed pager issue
+
+= 1.2.10 - Jan 17, 2018 =
+
+  * Fixed Redirect Issue of Child Pages
+
+= 1.2.9 - Jan 16, 2018 =
+
+  * Enhancements
+    * Added Filter to enable the like query
+  * Bugs
+    * PHP error displayed on all pages using custom permalinks
+    * Removed LIKE Query in default. It only works if the site uses PolyLang,
+      AMP Plugins or separately enabled using the provided filter.
+
+= 1.2.8 - Nov 03, 2017 =
+
+  * Add Order by in request query
+
+= 1.2.7 - Oct 27, 2017 =
+
+  * Fixed Parse Error
+
+= 1.2.6 - Oct 27, 2017 =
+
+  * Enhancements
+    * Added Filter to Exclude Post types
+  * Bugs
+    * Fixed Query Issue on parse_request
+    * Resolving Issues with Cornerstone
+
+= 1.2.5 - Oct 17, 2017 =
+
+  * Fixed Category/Tag Update Issue + Typo on Admin Page
+
+= 1.2.4 - Oct 07, 2017 =
+
+  * Fixed Slug issue with Yoast SEO
+
+= 1.2.3 - Sept 27, 2017 =
+
+  * Fixed PHP Notice on Edit Post Page
+
+= 1.2.2 - Sept 26, 2017 =
+
+  * Fixed Typo of Class Object for the term on Admin Page
+
+= 1.2.1 - Sept 25, 2017 =
+
+  * Fixed Class Typo
+
+= 1.2 - Sept 25, 2017 =
+
+  * Enhancements
+    * Added Filter to Exclude/Ignore URL to be processed
+    * Added Translation Capability
+    * Split the Code using OOPS Concept to improve performance and applied the filters according to the need
+    * Removed some unnecessary filters
+  * Bugs
+    * Fixed Vulnerability Issues
+
+= 1.1 - Sept 25, 2017 =
+
+  * Enhancements
+    * Added PostTypes Permalinks Page
+      * View all the PostTypes permalinks
+      * Search Permalinks
+      * Sort by Title
+      * Pagination
+    * Added Categories Permalinks Page
+      * View all the Category/Tags permalinks
+      * Search Permalinks
+      * Pagination
+
+  * Bug Fixes
+     * 404 Issues
+     * Child pages bug
+
+= 1.0.2 - Aug 15, 2017 =
+
+  * Fixed Notice and some URL Issues
+
+= 1.0.1 - Aug 12, 2017 =
+
+  * Fixed issue with AMP Pages
+
+= 1.0 - Aug 11, 2017 =
+
+  * Updated Query on the `custom_permalinks_request` Function
+
+= 0.9.3 - July 21, 2017 =
+
+ * Fixed PolyLang Conflicts
+
+= 0.9.2 - July 16, 2017 =
+
+ * Fixed WPML Conflicts
+
+= 0.9.1 - July 16, 2017 =
+
+ * Fixed issues of Filters and Actions (Replaces 'edit_files' with 10)
+
+= 0.9 - July 16, 2017 =
+
+ * Resolved the conflict with PolyLang Plugin
+
+= 0.8 - Aug 19, 2016 =
+
+ * Fixed (Draft preview issue for custom post types + some PHP Warnings)
+
+= 0.7.28 - July 28, 2016 =
+
+ * Fixed draft preview issue(posts + pages)
+
+= 0.7.27 - July 21, 2016 =
+
+ * Fixed Loop Redirecting issue
+
+= 0.7.26 - July 20, 2016 =
+
+ * Fixed PHP Notice issue
+
+= 0.7.25 - June 06, 2016 =
+
+ * Fixed draft preview issue
+
+= 0.7.24 =
+
+ * Fixed a problem with page URLs
+
+= 0.7.23 =
+
+  * Fixed a problem with permalinks with "/" components
+
+= 0.7.22 =
+
+  * Fixed PHP warning
+  * Fixed initial permalink display for new posts/pages
+
+= 0.7.21 =
+
+  * Minor internationalization fixes
+
+= 0.7.20 =
+
+  * Addressed a noisy warning
+  * Revised addition of admin forms js (don't use is_admin())
+  * Updated Roles and Capabilities from depreciated numerical to label capabilities (by OF-6)
+  * Added css/html to match WP 3.5+ layout (by OF-6)
+
+= 0.7.19 =
+
+  * WP 3.9 compatibility fix, thanks to Sowmedia
+
+= 0.7.18 =
+
+ * Patch to address 404 errors when displaying a page/post that shares a permalink with a trashed page/post, thanks to Tor Johnson
+
+= 0.7.17 =
+
+ * Patch to address SSL problems, thanks to Amin Mirzaee
+
+= 0.7.16 =
+
+ * Security and compatibility fixes by Hans-Michael Varbaek of Sense of Security
+
+= 0.7.15 =
+
+ * Permalinks are now case-insensitive (thanks to @ericmann)
+
+= 0.7.14 =
+
+ * Delete permalinks upon page/post deletion
+
+= 0.7.13 =
+
+ * Fixed issue with term permalinks not working properly on some installations
+
+= 0.7.12 =
+
+ * Fixed issue with feed URLs in non-webroot blog installations
+
+= 0.7.11 =
+
+ * Fixed issue with pending/draft posts with permalinks
+ * Fixed infinite redirect issue with permalinks without trailing slash, on blogs not hosted in the webroot
+
+= 0.7.10 =
+
+ * Fix for 404 error on the static front page with custom permalink set, by Eric TF Bat
+
+= 0.7.9 =
+
+ * Support for custom post types, by Bal·zs NÈmeth
+
+= 0.7.8 =
+
+ * Support for non-ASCII characters in URLs
+ * Fixed bug where adding a new tag when saving a post with a custom permalink attaches that permalink to the new tag
+ * Some compatibility fixes for WP 3.2.1
+
+= 0.7.7 =
+
+ * Minor change to permalink saving routine to fix some possible issues
+ * Fixed issue with %-encoded permalinks
+
+= 0.7.6 =
+
+ * Fixed permalink saving issue when not using ".../%postname%" or similar permalink structure
+
+= 0.7.5 =
+
+ * Fixed issue where changes to trailing "/" aren't saved
+
+= 0.7.4 =
+
+ * Added support for changing post/page slug only
+ * Fixed incorrect admin edit link
+
+= 0.7.3 =
+
+ * Fix problem with /page/# URLs on WP 3.1.3
+
+= 0.7.2 =
+
+ * Don't clobber query parameters when redirecting to the custom permalink from the original URL
+
+= 0.7.1 =
+
+ * Compatibility fix for the last update
+
+= 0.7 =
+
+ * Added support for SSL sites, thanks to Dan from todaywasawesome.com
+
+= 0.6.1 =
+
+ * Fix bug causing incorrect link from "View Post"/"View Page" button in post/page editor
+
+= 0.6 =
+
+ * Fix infinite redirect for permalinks ending in a / (critical fix)
+ * Moved post/page permalinks settings to top of the edit form, replacing prior permalink display
+
+= 0.5.3 =
+
+ * Fix for invalid URL redirect (eg. http://domain.comfolder/file.html instead of http://domain.com/folder/file.html) when using permalinks without a trailing slash (like .../%postname%.html)
+
+= 0.5.2 =
+
+ * Bugfix for matching posts when there are multiple posts that match parts of the query
+
+= 0.5.1 =
+
+ * Compatibility fix for WP 2.7's tag/category pages
+
+= 0.5 =
+
+ * Support for WordPress sites in subdirectories (i.e., not located at the webroot)
+
+= 0.4.1 =
+
+ * WP 2.7 compatibility fixes; fix for bug encountered when publishing a draft, or reverting to draft status, and fix for placeholder permalink value for pages
+
+= 0.4 =
+
+ * Support for pages, and a fix for draft posts/pages
+
+= 0.3.1 =
+
+ * Discovered a typo that broke categories
+
+= 0.3 =
+
+ * Largely rewritten to provide more robust handling of trailing slashes, proper support for trailing URL components (eg. paging)
+
+= 0.2.2 =
+
+ * Fixed bug with not matching permalinks when / appended to the URL, and workaround for infinite redirect when another plugin is enforcing trailing /
+
+= 0.2.1 =
+
+ * Better handling of trailing slashes
+
+= 0.2 =
+
+ * Added 'Custom Permalinks' section under 'Manage' to show existing custom permalinks, and allow reverting to the defaults
+
+= 0.1.1 =
+
+ * Fixed bug with categories

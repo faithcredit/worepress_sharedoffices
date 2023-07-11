@@ -1,0 +1,157 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?1df59bc18f4aeed061df91256fba4db3") format("truetype"),
+url("./flaticon.woff?1df59bc18f4aeed061df91256fba4db3") format("woff"),
+url("./flaticon.woff2?1df59bc18f4aeed061df91256fba4db3") format("woff2"),
+url("./flaticon.eot?1df59bc18f4aeed061df91256fba4db3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?1df59bc18f4aeed061df91256fba4db3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "wall-clock": "\f101",
+    "link-interface-symbol": "\f102",
+    "login": "\f103",
+    "magnifiying-glass": "\f104",
+    "down-arrow-1": "\f105",
+    "new-york": "\f106",
+    "twin-towers": "\f107",
+    "city-hall": "\f108",
+    "pointer-inside-a-circle": "\f109",
+    "select": "\f10a",
+    "user": "\f10b",
+    "diagonal-arrow": "\f10c",
+    "teamwork": "\f10d",
+    "google-play": "\f10e",
+    "apple": "\f10f",
+    "link": "\f110",
+    "photo-camera": "\f111",
+    "play-button": "\f112",
+    "menu": "\f113",
+    "chair": "\f114",
+    "calendar": "\f115",
+    "instagram": "\f116",
+    "question": "\f117",
+    "envelope": "\f118",
+    "share": "\f119",
+    "telephone": "\f11a",
+    "phone": "\f11b",
+    "high-speed-train": "\f11c",
+    "bus": "\f11d",
+    "plane": "\f11e",
+    "medicines": "\f11f",
+    "park": "\f120",
+    "video-camera": "\f121",
+);
+
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-link-interface-symbol:before {
+    content: map-get($flaticon-map, "link-interface-symbol");
+}
+.flaticon-login:before {
+    content: map-get($flaticon-map, "login");
+}
+.flaticon-magnifiying-glass:before {
+    content: map-get($flaticon-map, "magnifiying-glass");
+}
+.flaticon-down-arrow-1:before {
+    content: map-get($flaticon-map, "down-arrow-1");
+}
+.flaticon-new-york:before {
+    content: map-get($flaticon-map, "new-york");
+}
+.flaticon-twin-towers:before {
+    content: map-get($flaticon-map, "twin-towers");
+}
+.flaticon-city-hall:before {
+    content: map-get($flaticon-map, "city-hall");
+}
+.flaticon-pointer-inside-a-circle:before {
+    content: map-get($flaticon-map, "pointer-inside-a-circle");
+}
+.flaticon-select:before {
+    content: map-get($flaticon-map, "select");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-diagonal-arrow:before {
+    content: map-get($flaticon-map, "diagonal-arrow");
+}
+.flaticon-teamwork:before {
+    content: map-get($flaticon-map, "teamwork");
+}
+.flaticon-google-play:before {
+    content: map-get($flaticon-map, "google-play");
+}
+.flaticon-apple:before {
+    content: map-get($flaticon-map, "apple");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-photo-camera:before {
+    content: map-get($flaticon-map, "photo-camera");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-chair:before {
+    content: map-get($flaticon-map, "chair");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-question:before {
+    content: map-get($flaticon-map, "question");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-high-speed-train:before {
+    content: map-get($flaticon-map, "high-speed-train");
+}
+.flaticon-bus:before {
+    content: map-get($flaticon-map, "bus");
+}
+.flaticon-plane:before {
+    content: map-get($flaticon-map, "plane");
+}
+.flaticon-medicines:before {
+    content: map-get($flaticon-map, "medicines");
+}
+.flaticon-park:before {
+    content: map-get($flaticon-map, "park");
+}
+.flaticon-video-camera:before {
+    content: map-get($flaticon-map, "video-camera");
+}

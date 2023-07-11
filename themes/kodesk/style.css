@@ -1,0 +1,73 @@
+/*
+ * Theme Name: Kodesk
+ * Author: Theme Kalia
+ * Author URI: http://themeforest.net/user/template_path
+ * Theme URI: http://el.commonsupport.com/newwp/kodesk/
+ * Description: Bringing in ultimate aesthetic sense, Kodesk WordPress theme is something TOTALLY unique and different. It’s a TRULY creative showcase for your creative work. The animations are so genuine and so full of life and artificial intelligence – simply matchless. It’s minimalist and lightning fast. Kodesk has Five homepage layouts, where again each layout takes you to a new horizon of creativity. Everything from featured area and menu to mouse hover, products grid, and social integration appears in a new style.
+ * Version: 1.3
+ * License: This theme or plugin is comprised of two parts. (1) the PHP code and integrated HTML are licensed under the General Public License (GPL). You will find a copy of the GPL in the same directory as this text file. (2) All other parts, but not limited to the CSS code, images, and design are licensed according to the license purchased from Envato.  Read more about licensing here: http://themeforest.net/licenses
+ * License URI: license.txt
+ * Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ * Text Domain: kodesk
+ * Tested up to: 5.9
+ * Requires PHP: 7.2
+*/
+.wp-caption {
+	margin-bottom: 2px;
+}
+
+.wp-caption-text {
+	margin-bottom: 5px;
+}
+
+.screen-reader-text {
+	margin-bottom: 12px;
+}
+
+.gallery-caption {
+	margin-bottom: 2px;
+}
+
+.bypostauthor {
+	margin-bottom: 2px;
+}
+
+.alignleft {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	max-width: 100%;
+	width: unset !important;
+}
+
+.alignright {
+	float: right !important;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	max-width: 100%;
+	width: unset !important;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.col-md-4 .funfact-meta > i {
+	right: 27px;
+}
+
+.mycustom-pricing {
+	background-color: #090909 !important;
+}
+
+.on-hover {
+	display: none;
+	animation: fadeOut 0.5s;
+}
+
+.hver:hover .on-hover {
+	display: block;
+	animation: fadeIn 0.5s;
+}
+

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?1df59bc18f4aeed061df91256fba4db3") format("truetype"),
+url("./flaticon.woff?1df59bc18f4aeed061df91256fba4db3") format("woff"),
+url("./flaticon.woff2?1df59bc18f4aeed061df91256fba4db3") format("woff2"),
+url("./flaticon.eot?1df59bc18f4aeed061df91256fba4db3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?1df59bc18f4aeed061df91256fba4db3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-wall-clock:before {
+    content: "\f101";
+}
+.flaticon-link-interface-symbol:before {
+    content: "\f102";
+}
+.flaticon-login:before {
+    content: "\f103";
+}
+.flaticon-magnifiying-glass:before {
+    content: "\f104";
+}
+.flaticon-down-arrow-1:before {
+    content: "\f105";
+}
+.flaticon-new-york:before {
+    content: "\f106";
+}
+.flaticon-twin-towers:before {
+    content: "\f107";
+}
+.flaticon-city-hall:before {
+    content: "\f108";
+}
+.flaticon-pointer-inside-a-circle:before {
+    content: "\f109";
+}
+.flaticon-select:before {
+    content: "\f10a";
+}
+.flaticon-user:before {
+    content: "\f10b";
+}
+.flaticon-diagonal-arrow:before {
+    content: "\f10c";
+}
+.flaticon-teamwork:before {
+    content: "\f10d";
+}
+.flaticon-google-play:before {
+    content: "\f10e";
+}
+.flaticon-apple:before {
+    content: "\f10f";
+}
+.flaticon-link:before {
+    content: "\f110";
+}
+.flaticon-photo-camera:before {
+    content: "\f111";
+}
+.flaticon-play-button:before {
+    content: "\f112";
+}
+.flaticon-menu:before {
+    content: "\f113";
+}
+.flaticon-chair:before {
+    content: "\f114";
+}
+.flaticon-calendar:before {
+    content: "\f115";
+}
+.flaticon-instagram:before {
+    content: "\f116";
+}
+.flaticon-question:before {
+    content: "\f117";
+}
+.flaticon-envelope:before {
+    content: "\f118";
+}
+.flaticon-share:before {
+    content: "\f119";
+}
+.flaticon-telephone:before {
+    content: "\f11a";
+}
+.flaticon-phone:before {
+    content: "\f11b";
+}
+.flaticon-high-speed-train:before {
+    content: "\f11c";
+}
+.flaticon-bus:before {
+    content: "\f11d";
+}
+.flaticon-plane:before {
+    content: "\f11e";
+}
+.flaticon-medicines:before {
+    content: "\f11f";
+}
+.flaticon-park:before {
+    content: "\f120";
+}
+.flaticon-video-camera:before {
+    content: "\f121";
+}
